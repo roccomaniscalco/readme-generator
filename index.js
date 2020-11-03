@@ -1,4 +1,6 @@
+const fs = require("fs")
 const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown")
 
 // array of questions for user
 const questions = [
@@ -12,23 +14,32 @@ const questions = [
   },
   {
     name: "usage",
-    message: "Usage Information: "
+    message: "Usage Information: ",
   },
   {
     name: "installation",
     message: "Installation Instructions: ",
   },
   {
-    name: "Contribution",
+    name: "contribution",
     messgae: "Contribution Guidelines: ",
   },
   {
-    name: "testing",
+    name: "tests",
     message: "Test Instructions: ",
   },
   {
+    name: "github",
+    message: "Github Username: ",
+  },
+  {
+    name: "email",
+    message: "Email: ",
+  },
+  {
     type: "list",
-    name: "License",
+    name: "license",
+    message: "License: ",
     choices: ["MIT","BSD-2-Clause","CDDL-1.0"],
   },
 ];
@@ -47,7 +58,10 @@ function init() {
 
 // function to write README file
 function writeToFile(fileName, data) {
-  console.log(data);
+  fs.writeFile(fileName, generateMarkdown(data), (err) => {
+    if (err) throw err;
+    console.log('Saved!');
+  })
 }
 
 // function call to initialize program
