@@ -22,7 +22,7 @@ const questions = [
   },
   {
     name: "contribution",
-    messgae: "Contribution Guidelines: ",
+    message: "Contribution Guidelines: ",
   },
   {
     name: "tests",
@@ -40,7 +40,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "License: ",
-    choices: ["MIT","BSD-2-Clause","CDDL-1.0"],
+    choices: ["Appache 2.0", "BSD 2-Clause", "MIT", "MPL 2.0"],
   },
 ];
 
