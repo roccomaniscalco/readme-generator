@@ -8,11 +8,11 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
   
-  ## Usage
-  ${data.usage}
-  
   ## Installation
   ${data.installation}
+
+  ## Usage
+  ${data.usage}
   
   ## Contributing
   ${data.contribution}
