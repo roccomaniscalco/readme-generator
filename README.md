@@ -3,7 +3,7 @@
   # README Generator
   
   ## Description
-  A great README is the foundation of a project's presentation. Using a CLI, the program allows you to generate a unique README without ever leaving the terminal. With this professional README Generator, you can be confident with your project's documentation and devote more time to developing new features.
+  A great README is the foundation of a project's presentation. The README Generator allows the user to generate a unique README without ever leaving the terminal. With a professional README, you can be confident with your project's documentation and devote more time to developing new features.
   
   ## Installation
   Head over to the [README Generator repository](https://github.com/roccomaniscalco/readme-generator). Click the green *code* button and select a method of download.
