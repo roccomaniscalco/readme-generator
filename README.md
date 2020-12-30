@@ -9,11 +9,11 @@
   Head over to the [README Generator repository](https://github.com/roccomaniscalco/readme-generator). Click the green *code* button and select a method of download.
 
   ## Usage
-  The README Generator can be used with any (inquirer supported terminals[https://www.npmjs.com/package/inquirer#support].
+  The README Generator can be used with any [inquirer supported terminals](https://www.npmjs.com/package/inquirer#support).
   
   ## Questions
-  View my Github profile at (roccomaniscalco)[https://github.com/roccomaniscalco]. Please direct your inquiries to **roccomaniscalco2001@gmail.com**.
+  View my Github profile at [roccomaniscalco](https://github.com/roccomaniscalco). Please direct your inquiries to **roccomaniscalco2001@gmail.com**.
 
   ## License
-  Licensed under the (MIT)[https://opensource.org/licenses/MIT] license.
+  Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
   
